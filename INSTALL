@@ -1,6 +1,6 @@
 Installing beepbeep:
 
-Installing beepbeep should (hopefully) be fairly straigth forward.  You will 
+Installing beepbeep should (hopefully) be fairly straight forward.  You will 
 need gcc to be installed because the actual beep executable is compiled during
 the installation.  You also need to be root to install and run beepbeep.  
 
