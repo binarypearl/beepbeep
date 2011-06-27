@@ -1,0 +1,24 @@
+Installing beepbeep:
+
+Installing beepbeep should (hopefully) be fairly straigth forward.  You will 
+need gcc to be installed because the actual beep executable is compiled during
+the installation.  You also need to be root to install and run beepbeep.  
+
+1.  Extract tarball to the directory of your chosing:
+	tar -xvpjf ./beepbeep.version.tar.bz2
+	cd beepbeep
+
+2.  Run ./install_beepbeep.py 
+	It will ask you for 2 questions, where do you want to put the executables and
+	where to do want to put the songs.  If you don't care, just press enter on both
+	of them to accept the defaults.  Otherwise you can specifify your own directories.
+	
+	Ultimately the directory locations get written to /etc/beepbeep.conf
+	that beepbeep references.
+	
+	You can re-run install_beepbeep.py to either re-install (to the same or different
+	directory) or remove beepbeep together.  If you created any custom songs, be sure
+	to back them up if you are removing beeepbeep, as the songs will get deleted. 
+
+3.  To run beepbeep, simply type: beepbeep
+	To see different options try: beepbeep --help 
