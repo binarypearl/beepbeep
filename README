@@ -1,11 +1,18 @@
-Changes here
+﻿Introduction:
+  beepbeep is a CLI and menu based tool to play songs through a computers PC speaker.  We are leveraging an enhanced version of the beep binary (http://www.johnath.com/beep/) that allows us to specify both frequency and durations.  This gives us great flexibility to create melodies.  We also have a perl API that allows for easier creation of songs.
 
-beepbeep README:
+Notable songs included in this beepbeep package:
+Entry of the Gladiators
+Final Fantasy VI – Decisive Battle
+Final Fantasy X – On to Zanarkand
 
-Important files:
+
+Important files to get started:
 INSTALL - Tells you how to install beepbeep
 
-beepbeep - This is the main excuable.  Run this after installing.  Run beebeep --help for more options.
+beepbeep - This is the main executable.  Run this after installing.  Run beebeep --help for more options.
 
 HOWTO_CREATE_SONGS.TXT - Describes how to create your own beepbeep songs.
+
+--Shaun (binarypearl@gmail.com)
 
