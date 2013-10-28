@@ -10,7 +10,7 @@ Final Fantasy X – On to Zanarkand
 Important files to get started:
 INSTALL - Tells you how to install beepbeep
 
-beepbeep - This is the main executable.  Run this after installing.  Run beebeep --help for more options.
+beepbeep - This is the main executable.  Run this after installing.  Run beepbeep --help for more options.
 
 HOWTO_CREATE_SONGS.TXT - Describes how to create your own beepbeep songs.
 
