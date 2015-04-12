@@ -1,0 +1,2 @@
+# This file indicates which version of beepbeep that we are installing/running.
+version=0.08

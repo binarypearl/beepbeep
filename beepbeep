@@ -1,0 +1,60 @@
+#!/usr/bin/perl
+
+use strict;
+# beebeep : A menu and CLI based script to play songs through a PC speaker.
+#
+# This code is copyright (C) Shaun Miller, 2011
+#
+# This code may distributed only under the terms of the GNU Public License 
+# which can be found at http://www.gnu.org/copyleft or in the file COPYING 
+# supplied with this code.
+#
+# This code is not distributed with warranties of any kind, including implied
+# warranties of merchantability or fitness for a particular use. 
+
+use Getopt::Long;
+
+my $song_requested = "";
+my $song_list_flag = "";
+my $version_flag = "";
+my $help_flag = "";
+
+GetOptions (
+    "song:s" =>  \$song_requested,
+    "list" => \$song_list_flag,
+    "version" => \$version_flag,
+    "help" => \$help_flag,
+);
+
+#print "\$song_requested = ***$song_requested***\n";
+#print "\$song_list_flag = ***$song_list_flag***\n";
+#print "\$version_flag = ***$version_flag***\n";
+
+# Ugh, this is not a good way to do this, exiting 0 no matter what.  
+# eh, it should still work for now.  
+
+if ($song_requested) {
+	system ("menu.pl -s $song_requested");
+	exit 0;
+}
+
+if ($song_list_flag) {
+	system ("menu.pl -l");
+	exit 0;
+}
+
+if ($version_flag) {
+	system ("menu.pl -v");
+	exit 0;
+}
+
+if ($help_flag) {
+	system ("menu.pl -h");
+	exit 0;
+}
+
+if ($#ARGV + 1 == 0) {
+	system ("menu.pl");
+	exit 0;
+}
+
