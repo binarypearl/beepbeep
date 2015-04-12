@@ -1,7 +1,7 @@
 ﻿Introduction:
   beepbeep is a CLI and menu based tool to play songs through a computers PC speaker.  We are leveraging an enhanced version of the beep binary (http://www.johnath.com/beep/) that allows us to specify both frequency and durations.  This gives us great flexibility to create melodies.  We also have a perl API that allows for easier creation of songs.
 
-Get the install tarball:  beepbeep.0.08.tar.bz2
+Get the install tarball from the source window above:  beepbeep.0.08.tar.bz2
 
 Notable songs included in this beepbeep package:
 Entry of the Gladiators
